@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import CardHower1 from "./cardHower1";
+import CardHower2 from "./cardHower2";
 import HoverEffect1 from "./hoverEffect1";
 
 const testData = {
@@ -17,7 +18,7 @@ export default function App() {
     <div className="App">
       <div className={"container"}>
         <CardHower1 {...testData} />
-        <CardHower1 {...testData} />
+        <CardHower2 {...testData} />
         <HoverEffect1 {...testData} />
       </div>
     </div>
